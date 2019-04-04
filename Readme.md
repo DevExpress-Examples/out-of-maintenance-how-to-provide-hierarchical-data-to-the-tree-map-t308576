@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [DataModel.cs](./CS/TreeMapHierarchicalDataAdapterSample/DataModel.cs) (VB: [DataModel.vb](./VB/TreeMapHierarchicalDataAdapterSample/DataModel.vb))
-* **[MainWindow.xaml](./CS/TreeMapHierarchicalDataAdapterSample/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/TreeMapHierarchicalDataAdapterSample/MainWindow.xaml.vb))**
+* **[MainWindow.xaml](./CS/TreeMapHierarchicalDataAdapterSample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/TreeMapHierarchicalDataAdapterSample/MainWindow.xaml))**
 * [MainWindow.xaml.cs](./CS/TreeMapHierarchicalDataAdapterSample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/TreeMapHierarchicalDataAdapterSample/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to provide hierarchical data to the Tree Map
