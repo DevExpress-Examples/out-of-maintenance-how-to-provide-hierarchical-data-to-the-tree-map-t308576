@@ -6,20 +6,20 @@ Imports System.Text
 Imports System.Threading.Tasks
 
 Namespace TreeMapHierarchicalDataAdapterSample
-    Public Class Country
-        Public Property Name() As String
-        Public Property Gdp() As Double
-    End Class
+	Public Class Country
+		Public Property Name() As String
+		Public Property Gdp() As Double
+	End Class
 
-    Public Class SideOfWorld
-        Public Property Name() As String
+	Public Class SideOfWorld
+		Public Property Name() As String
 
-
-        Private countries_Renamed As New List(Of Country)()
-        Public ReadOnly Property Countries() As List(Of Country)
-            Get
-                Return countries_Renamed
-            End Get
-        End Property
-    End Class
+'INSTANT VB NOTE: The field countries was renamed since Visual Basic does not allow fields to have the same name as other class members:
+		Private countries_Conflict As New List(Of Country)()
+		Public ReadOnly Property Countries() As List(Of Country)
+			Get
+				Return countries_Conflict
+			End Get
+		End Property
+	End Class
 End Namespace
